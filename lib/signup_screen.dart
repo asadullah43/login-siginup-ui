@@ -16,10 +16,9 @@ class _SignUpState extends State<SignUp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffced4da),
+      backgroundColor: const Color(0xffced4da),
       body: SingleChildScrollView(
         child: Column(
-          // ignore: prefer_const_literals_to_create_immutables
           children: [
             const SizedBox(
               height: 50,
